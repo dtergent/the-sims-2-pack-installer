@@ -1,0 +1,75 @@
+name: Bug report
+description: Report an installation, removal, detection, or interface problem.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the installer. Do not attach game package files, passwords, account tokens, or private keys. Review file paths before posting because they can contain your macOS account name.
+  - type: input
+    id: installer-version
+    attributes:
+      label: Installer version
+      placeholder: "For example: 0.1.0 (1)"
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: "For example: macOS 15.6"
+    validations:
+      required: true
+  - type: dropdown
+    id: mac-type
+    attributes:
+      label: Mac processor
+      options:
+        - Apple silicon
+        - Intel
+        - I do not know
+    validations:
+      required: true
+  - type: input
+    id: game-version
+    attributes:
+      label: "The Sims 2: Super Collection version"
+      placeholder: "For example: 1.2.5"
+    validations:
+      required: true
+  - type: input
+    id: pack
+    attributes:
+      label: Affected pack or packs
+      placeholder: "For example: IKEA Stuff Pack"
+  - type: input
+    id: diagnostic-code
+    attributes:
+      label: Diagnostic code
+      description: Enter the exact code shown by the installer, if one appeared.
+      placeholder: "For example: fileSystemFailure"
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened?
+      description: Describe what you selected, what you expected, and what happened instead.
+      placeholder: |
+        1. I selected…
+        2. macOS asked…
+        3. The installer displayed…
+    validations:
+      required: true
+  - type: textarea
+    id: existing-content
+    attributes:
+      label: Existing or manually installed content
+      description: Mention whether an older conversion or similarly named package was already present.
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, account tokens, private keys, copyrighted package files, and unnecessary personal paths from this report.
+          required: true
