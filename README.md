@@ -1,7 +1,7 @@
 # The Sims 2: Pack Installer
 
 An unofficial, noncommercial macOS utility for installing and removing
-DTERGENT's macOS compatibility conversions for **The Sims 2: Super
+macOS compatibility conversions for **The Sims 2: Super
 Collection**.
 
 > This project is not endorsed by or affiliated with EA or its licensors.
