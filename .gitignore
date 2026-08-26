@@ -1,0 +1,12 @@
+.DS_Store
+*.app
+*.dmg
+*.zip
+*.aar
+*.tar
+*.tar.*
+release-staging/
+private-keys/
+*.pem
+*.key
+
