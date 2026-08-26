@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>The Sims 2: Pack Installer Updates</title>
+    <link>https://dtergent.github.io/the-sims-2-pack-installer/appcast.xml</link>
+    <description>Signed application updates for The Sims 2: Pack Installer.</description>
+    <language>en</language>
+  </channel>
+</rss>
+
