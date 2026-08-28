@@ -6,6 +6,20 @@
     <link>https://dtergent.github.io/the-sims-2-pack-installer/appcast.xml</link>
     <description>Signed application updates for The Sims 2: Pack Installer.</description>
     <language>en</language>
+    <item>
+      <title>Version 0.1.1</title>
+      <pubDate>Fri, 28 Aug 2026 13:44:05 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>
+        https://dtergent.github.io/the-sims-2-pack-installer/release-notes/0.1.1.html
+      </sparkle:releaseNotesLink>
+      <enclosure
+        url="https://github.com/dtergent/the-sims-2-pack-installer/releases/download/v0.1.1/The.Sims.2.Pack.Installer.0.1.1.zip"
+        sparkle:edSignature="Do3mNOhP5mBDs6igeH2ZOTlxpg8lqlPPRrQ3tdcJKkYC4qzVCVE6wB9eqZyhB05ihR2NK4MD5pBkehZ/gbAbCw=="
+        length="493385034"
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
-
