@@ -71,12 +71,18 @@ path can contain your macOS account name.
 
 The application checks a signed Sparkle update feed hosted by this repository.
 When a new version is found, it offers to download and install it without
-visiting GitHub. Automatic checks are normally scheduled once every 24 hours;
-use **Check for Updates…** to check immediately. The private update-signing key
+visiting GitHub. Version 0.1.4 and later check on launch when automatic checks
+are enabled, as well as on Sparkle's regular schedule. Older versions normally
+check once every 24 hours; use **Check for Updates…** to check immediately.
+Disabled automatic checks are respected. The private update-signing key
 is never stored in this repository.
 
 Updating the installer does not silently update files in the game. Afterward,
 update any packs marked **Needs update** using their toggles, with the game closed.
+For the corrective 0.1.4 runtime update, select your current language again in
+the Language menu to apply the fixes without changing your language or enabling
+HDR. Installing/updating a pack or enabling HDR also applies the bundled runtime.
+Your personal settings are preserved; new users default to HDR off and System Default.
 
 ## Legal notice
 
